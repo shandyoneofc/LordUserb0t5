@@ -1050,7 +1050,7 @@ const checkWin = (sender) => {
 						Zeeone.sendMessage(from, buffer, video, {quoted: Ofc })
 						}
 					}
-					if (isGroup && isAntiLink && !isOwner && !isGroupAdmins && isBotGroupAdmins){
+					if (isGroup && !isOwner && !isGroupAdmins && isBotGroupAdmins){
 						if (budy.match(/(https:\/\/chat.whatsapp.com)/gi)) {
 							sendButMessage(from, ` *GROUP LINK DETECTED*\n\nMaaf Kamu Akan Di Kick Dari Group Ini!`, `Klik Di Bawah Untuk Mematikan`, [
 							{
